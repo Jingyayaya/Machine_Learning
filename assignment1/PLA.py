@@ -30,6 +30,7 @@ def update_w(W, x):
         new_w.append(new_val)
     return new_w
 
+# The implementation of PLA using basic python
 def PLA(train_data):
     #initialize the W
     W=[]
